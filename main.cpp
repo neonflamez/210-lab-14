@@ -45,5 +45,20 @@ public:
 
 int main(){
 
+    Color color1(255, 0, 0);
+    Color color2(0, 255, 0);
+    Color color3(0, 0, 255);
+
+    Color color4;
+    color4.setRed(128);
+    color4.setGreen(128);
+    color4.setBlue(128);
+
+    cout << "Color Values: " << endl;
+    color1.print();
+    color2.print();
+    color3.print();
+    color4.print();
+
     return 0;
 }
